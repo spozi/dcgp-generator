@@ -1,0 +1,93 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=9
+    os=Linux
+
+[requires]
+    ceres-solver/2.Y.Z
+    cpp-sort/1.Y.Z
+    cxxopts/3.Y.Z
+    dataframe/1.Y.Z
+    dcol/0.1
+    doctest/2.Y.Z
+    eigen/3.Y.Z
+    fast_float/3.Y.Z
+    fmt/8.Y.Z
+    nanobench/4.Y.Z
+    operon/0.1
+    pybind11/2.Y.Z
+    rapidcsv/8.Y.Z
+    robin-hood-hashing/3.Y.Z
+    span-lite/0.10.3
+    taskflow/3.Y.Z
+    vectorclass/2.Y.Z
+    xxhash/0.8.0
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=9
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    ceres-solver/2.0.0:5a26de78aba1482bb4998b4dfae77be20b4a3ec3
+    cpp-sort/1.12.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    cxxopts/3.0.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    dataframe/1.19.0:50a5030bbbb13ae56bc4be41915ecd48549cb895
+    dcol/0.1:50a5030bbbb13ae56bc4be41915ecd48549cb895
+    doctest/2.4.6:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    eigen/3.4.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    fast_float/3.2.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    fmt/8.0.1:30a9781670e6fb2f17b8355b17a15cf916045317
+    nanobench/4.3.5:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    operon/0.1:50a5030bbbb13ae56bc4be41915ecd48549cb895
+    pybind11/2.8.1:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    rapidcsv/8.53:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    robin-hood-hashing/3.11.4:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    span-lite/0.10.3:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    taskflow/3.2.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    vectorclass/2.01.03:50a5030bbbb13ae56bc4be41915ecd48549cb895
+    xxhash/0.8.0:3105381e661d17c03da1b510aa0204c9f199d31c
+
+[full_options]
+    ceres-solver:fPIC=True
+    ceres-solver:shared=False
+    ceres-solver:use_TBB=False
+    ceres-solver:use_custom_blas=True
+    ceres-solver:use_eigen_sparse=True
+    ceres-solver:use_gflags=False
+    ceres-solver:use_glog=False
+    ceres-solver:use_schur_specializations=True
+    cxxopts:unicode=False
+    dataframe:fPIC=True
+    dataframe:shared=False
+    dcol:fPIC=True
+    dcol:shared=False
+    eigen:MPL2_only=False
+    fmt:fPIC=True
+    fmt:header_only=False
+    fmt:shared=False
+    fmt:with_fmt_alias=False
+    fmt:with_os_api=True
+    operon:fPIC=True
+    operon:shared=False
+    vectorclass:fPIC=True
+    xxhash:fPIC=True
+    xxhash:shared=False
+    xxhash:utility=True
+
+[recipe_hash]
+
+
+[env]
+

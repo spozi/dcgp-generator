@@ -1,0 +1,163 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "ceres-solver:fPIC=True\nceres-solver:shared=False\nceres-solver:use_TBB=False\nceres-solver:use_custom_blas=True\nceres-solver:use_eigen_sparse=True\nceres-solver:use_gflags=False\nceres-solver:use_glog=False\nceres-solver:use_schur_specializations=True\ncxxopts:unicode=False\ndataframe:fPIC=True\ndataframe:shared=False\ndcol:fPIC=True\ndcol:shared=False\neigen:MPL2_only=False\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True\noperon:fPIC=True\noperon:shared=False\nvectorclass:fPIC=True\nxxhash:fPIC=True\nxxhash:shared=False\nxxhash:utility=True",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18"
+    ],
+    "path": "conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "dataframe/1.19.0",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "50a5030bbbb13ae56bc4be41915ecd48549cb895",
+    "prev": "0",
+    "context": "host"
+   },
+   "2": {
+    "ref": "taskflow/3.2.0",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "eigen/3.4.0",
+    "options": "MPL2_only=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "4": {
+    "ref": "fmt/8.0.1",
+    "options": "fPIC=True\nheader_only=False\nshared=False\nwith_fmt_alias=False\nwith_os_api=True",
+    "package_id": "30a9781670e6fb2f17b8355b17a15cf916045317",
+    "prev": "0",
+    "context": "host"
+   },
+   "5": {
+    "ref": "ceres-solver/2.0.0",
+    "options": "fPIC=True\nshared=False\nuse_TBB=False\nuse_custom_blas=True\nuse_eigen_sparse=True\nuse_gflags=False\nuse_glog=False\nuse_schur_specializations=True\neigen:MPL2_only=False",
+    "package_id": "5a26de78aba1482bb4998b4dfae77be20b4a3ec3",
+    "prev": "0",
+    "requires": [
+     "3"
+    ],
+    "context": "host"
+   },
+   "6": {
+    "ref": "cxxopts/3.0.0",
+    "options": "unicode=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "7": {
+    "ref": "doctest/2.4.6",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "8": {
+    "ref": "pybind11/2.8.1",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "cpp-sort/1.12.0",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "10": {
+    "ref": "fast_float/3.2.0",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "11": {
+    "ref": "robin-hood-hashing/3.11.4",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "12": {
+    "ref": "nanobench/4.3.5",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "13": {
+    "ref": "rapidcsv/8.53",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "14": {
+    "ref": "span-lite/0.10.3",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "15": {
+    "ref": "vectorclass/2.01.03",
+    "options": "fPIC=True",
+    "package_id": "50a5030bbbb13ae56bc4be41915ecd48549cb895",
+    "prev": "0",
+    "context": "host"
+   },
+   "16": {
+    "ref": "xxhash/0.8.0",
+    "options": "fPIC=True\nshared=False\nutility=True",
+    "package_id": "3105381e661d17c03da1b510aa0204c9f199d31c",
+    "prev": "0",
+    "context": "host"
+   },
+   "17": {
+    "ref": "operon/0.1",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "50a5030bbbb13ae56bc4be41915ecd48549cb895",
+    "prev": "0",
+    "context": "host"
+   },
+   "18": {
+    "ref": "dcol/0.1",
+    "options": "fPIC=True\nshared=False",
+    "package_id": "50a5030bbbb13ae56bc4be41915ecd48549cb895",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}
