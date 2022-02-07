@@ -17,6 +17,8 @@ vectorclass/2.01.03
 xxhash/0.8.0
 operon/0.1
 dcol/0.1
+dataframe/1.19.0
+
 [generators]
 cmake
 
